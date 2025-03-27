@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sarah M.",
+    designation: "Parent of a Child with Down Syndrome",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Stepwise has been a game-changer for my son. He used to struggle with simple tasks like making breakfast, but now he follows the visual guides on his own. Seeing his confidence grow is everything to me.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Dr. James Carter",
+    designation: "Special Education Therapist",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a therapist, I love how Stepwise adapts to real-world needs. The guardian dashboard lets me track progress and customize tasks for my clients, making therapy more effective and engaging.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Emily R.",
+    designation: "Adult with Autism",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I always felt nervous asking for help at work. With Stepwise, I can snap a picture and get clear steps to follow. It’s simple, and now I feel more independent every day.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -34,7 +34,7 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="What Our Users Says"

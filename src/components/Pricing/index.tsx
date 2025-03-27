@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Choose a plan that fits your needs—whether you’re a family, caregiver, or institution. Stepwise offers flexible options to empower independence and support growth."
           center
           width="665px"
         />
@@ -59,43 +59,56 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
+            packageName="Free"
+            price={isMonthly ? "0" : "0"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Basic tools to get started with Stepwise."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="1 Guardian" status="active" />
+            <OfferList text="2 Patients" status="active" />
+            <OfferList text="Basic Visual Guides" status="active" />
+            <OfferList text="Limited Community Support" status="active" />
+            <OfferList text="Progress Tracking" status="inactive" />
+            <OfferList text="Custom Task Guides" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
+            packageName="Standard"
+            price={isMonthly ? "15" : "150"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Enhanced features for families and small groups."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="5 Guardians" status="active" />
+            <OfferList text="15 Patients" status="active" />
+            <OfferList text="Extra Task Resources" status="active" />
+            <OfferList text="Priority Support" status="active" />
+            <OfferList text="Detailed Patient Insights" status="active" />
+            <OfferList text="Clone 2 Voices" status="active" />
           </PricingBox>
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
+            packageName="Premium"
+            price={isMonthly ? "28" : "280"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Advanced support for larger support networks."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="12 Guardians" status="active" />
+            <OfferList text="40 Patients" status="active" />
+            <OfferList text="1:1 Consultations" status="active" />
+            <OfferList text="Advanced Task Resources" status="active" />
+            <OfferList text="Clone 5 Voices" status="active" />
+            <OfferList text="All Standard Features" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Business"
+            price={isMonthly ? "50" : "500"}
+            duration={isMonthly ? "mo" : "yr"}
+            subtitle="Scalable tools for schools and organizations."
+          >
+            <OfferList text="20 Guardians" status="active" />
+            <OfferList text="100 Patients" status="active" />
+            <OfferList text="Customizable Tools" status="active" />
+            <OfferList text="Multi-User Access" status="active" />
+            <OfferList text="Clone 10 Voices" status="active" />
+            <OfferList text="All Premium Features" status="active" />
           </PricingBox>
         </div>
       </div>

@@ -2,23 +2,23 @@ import Image from "next/image";
 
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:px-28 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="-mx-4 flex flex-wrap items-start">
           <div className="w-full px-4 lg:w-1/2">
             <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] p-24 text-center lg:m-0"
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
+                src="/images/stepwise-assets/about2.webp"
+                alt="Stepwise app interface"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="object-cover drop-shadow-three dark:hidden dark:drop-shadow-none md:max-w-[400px]"
               />
               <Image
                 src="/images/about/about-image-2-dark.svg"
-                alt="about image"
+                alt="Stepwise app interface"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
@@ -28,29 +28,34 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Visual Learning, Simplified
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Stepwise transforms real-world images into step-by-step visual
+                  guides, making learning intuitive and engaging for individuals
+                  with cognitive disabilities. No more confusing
+                  instructions—just clear, easy-to-follow steps.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  AI-Powered Personalization
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Our AI tailors task instructions based on user needs, ensuring
+                  guidance that adapts to different learning styles and
+                  abilities. Whether at home, in school, or at work, Stepwise
+                  provides the right support at the right time.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Empowering Independence
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  By enabling users to complete tasks confidently on their own,
+                  Stepwise fosters greater independence and self-reliance,
+                  reducing the need for constant caregiver intervention.
                 </p>
               </div>
             </div>
