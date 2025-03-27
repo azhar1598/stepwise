@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 
 const AboutPage = () => {
   return (
-    <>
-      <Breadcrumb pageName="About Us" description="" />
+    <section className="pb-[120px] pt-[120px]">
+      {/* <Breadcrumb pageName="About Us" description="" /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
-    </>
+    </section>
   );
 };
 

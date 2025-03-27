@@ -18,10 +18,10 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-4 md:px-28 md:pt-4 lg:pt-12">
+    <section id="about" className="md:px-29 lg:pt- pt-4 md:pt-4">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-start">
+          <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Empowering Independence Through Visual Learning"
